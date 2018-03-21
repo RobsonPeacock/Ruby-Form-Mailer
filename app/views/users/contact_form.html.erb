@@ -1,0 +1,16 @@
+  <%= form_tag do %>
+
+  <%= label :name, 'Customer Query:' %>
+  <%= text_field(:person, :contact) %>
+
+  <%= label :name, 'Name:' %>
+  <%= text_field(:person, :contact) %>
+
+  <%= label :name, 'Email:' %>
+  <%= text_field_tag(:person, :contact) %>
+
+  <%= label :name, 'Message:' %>
+  <%= text_area(:person, :contact) %>
+
+
+  <% end %>
